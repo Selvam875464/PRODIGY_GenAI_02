@@ -7,7 +7,7 @@
 
 ## 📂 Project Structure
 
-- `text_to_image.py` – Main script that generates an image from a text prompt using the Stable Diffusion model.
+- `Task02_Text_to_Image_StableDiffusion.ipynb` – Main script that generates an image from a text prompt using the Stable Diffusion model.
 - `README.md` – Project overview and usage instructions.
 - Output images are displayed using `matplotlib`.
 
