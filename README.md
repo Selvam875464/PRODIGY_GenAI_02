@@ -1,32 +1,38 @@
-# 🧠 PRODIGY_GenAI_02 – Text Summarization with T5
+# 🚀 PRODIGY_GenAI_02 - Text-to-Image Generation
 
-This is Task 2 of the **Generative AI Internship** at **Prodigy InfoTech**.
-
----
-
-## 📌 Task Objective
-To implement **abstractive text summarization** using the pre-trained **T5 (Text-To-Text Transfer Transformer)** model from Hugging Face. The model summarizes long text into concise, meaningful sentences.
+## 📌 Task Description
+**Task 2 of Prodigy InfoTech's Generative AI Internship** is focused on generating images from text prompts using a pre-trained generative model. This is achieved using **Stable Diffusion**, a powerful and widely used model for text-to-image generation.
 
 ---
 
-## 🧰 Tools & Libraries
-- Python
-- Google Colab
-- Hugging Face Transformers
-- T5-small Model
+## 📂 Project Structure
+
+- `text_to_image.py` – Main script that generates an image from a text prompt using the Stable Diffusion model.
+- `README.md` – Project overview and usage instructions.
+- Output images are displayed using `matplotlib`.
 
 ---
 
-## 📁 Files
-- `PRODIGY_GenAI_Task02_T5Summarization.ipynb` – Colab notebook with code and output
+## 🧠 Model Used
+
+- **Stable Diffusion v1.4**  
+  Source: `CompVis/stable-diffusion-v1-4`  
+  Library: [`diffusers`](https://github.com/huggingface/diffusers)
 
 ---
 
-## 📚 Learning Outcome
-- Learned how the T5 model converts NLP tasks into a unified text-to-text format
-- Gained hands-on experience with summarization pipelines in Hugging Face
-- Understood how pre-trained models can be adapted for specific tasks
+## 🛠️ Requirements
 
----
+Install the required libraries:
 
-✅ **Task 2 Completed for Generative AI Internship – Prodigy InfoTech**
+```bash
+pip install diffusers transformers accelerate torch
+
+🎯 Output
+The model will generate an image based on your prompt. For example:
+
+Prompt: "A futuristic cityscape at sunset with flying cars"
+
+Output: A high-quality AI-generated image matching the description.
+
+
